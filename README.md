@@ -13,6 +13,13 @@ To set this bot up for yourself, follow these steps:
 
 # Usage
 Here is a list of commands you can use:
-  1. Testing
-  1. Testing
-  2. Testing
+  - `example <arg1> [arg2]` - example if the command name, arguments in `<>` are required, and arguments in `[]` are optional. This command would look like `?example arg1` or `?example arg1 arg2` if used.
+  - General:
+    - `prefix <prefix>` - Change the bot's prefix.
+    - `restart` - Restart the bot. Only works if the bot is run using the `Start.bat` file.
+  - Gambling:
+    - `beg` - Get a random number of coins between 1 and 100. Set on a 2 hour cooldown.
+    - `coins [user]` - List the number of coins you have. Include someone's username or mention them to see their coins.
+    - `leaderboard` - Show the leaderboard for the coins, and your rank on the server.
+    - `gamble <amount>` - Gamble an amount of coins. You have a 48% chance of losing that amount, 48% chance of winning that amount, and 4% chance of hitting the jackpot, which gives you 5 times that amount.
+    - `dual <amount> <user>` - Duel a user for coins. Both of you pitch in the same amount of coins, and the winner takes all. Both sides have a 50% chance of winning.

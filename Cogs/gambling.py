@@ -96,7 +96,7 @@ class Gambling(commands.Cog, name = "Gambling"):
             )
             await ctx.send(embed = embed)
 
-    @commands.command(name = "leaders", aliases = ['leaderboard', 'ldb'], help = "View the token leaderboard.")
+    @commands.command(name = "leaderboard", aliases = ['leaders', 'ldb'], help = "View the token leaderboard.")
     async def leaderboard(self, ctx):
         await ctx.trigger_typing()
         leaders = []
