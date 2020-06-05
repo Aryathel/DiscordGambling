@@ -10,3 +10,9 @@ To set this bot up for yourself, follow these steps:
  1. Create an environment variable called `GamblingToken` and set it to your bot's token.
  1. Change line `14` in `main.py` to have your log channel id.
  1. Run `python main.py`.
+
+# Usage
+Here is a list of commands you can use:
+  1. Testing
+  1. Testing
+  2. Testing
