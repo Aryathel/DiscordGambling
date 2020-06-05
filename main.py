@@ -10,7 +10,7 @@ def get_prefix(bot, message):
 
 bot = commands.Bot(command_prefix=get_prefix, description = "Hero's Gambling.", ignore_case = True)
 
-bot.TOKEN = os.getenv('Placeholder')
+bot.TOKEN = os.getenv('GamblingToken')
 bot.log_channel_id = 601811847590576152
 # Random embed color each time the bot is run
 # bot.color = discord.Color.from_rgb(random.randint(0, 254), random.randint(0, 254), random.randint(0, 254))
